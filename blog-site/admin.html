@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>ایڈمن ڈیش بورڈ</title>
+</head>
+<body>
+  <h2>➕ نئی بلاگ پوسٹ شامل کریں</h2>
+  <form id="postForm">
+    <label>عنوان:</label><br>
+    <input type="text" id="title" required><br><br>
+
+    <label>تفصیل:</label><br>
+    <textarea id="content" rows="5" required></textarea><br><br>
+
+    <label>تصویر:</label><br>
+    <input type="file" id="image" accept="image/*" required><br><br>
+
+    <label>کتاب (PDF):</label><br>
+    <input type="file" id="book" accept=".pdf" required><br><br>
+
+    <button type="submit">پوسٹ شامل کریں</button>
+  </form>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>
